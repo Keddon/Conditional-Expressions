@@ -29,3 +29,4 @@ if (iPhonePrice < budget && paycheck > 300){
 }else {
     console.log("No phone for you!");
 }
+console.log(kidHeight);
