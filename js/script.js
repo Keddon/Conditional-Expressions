@@ -17,3 +17,15 @@ if(kidHeight + sneakerLift > minHeight){  // there is a difference between =, ==
 }else{
     console.log("Sorry you have some growing to do");
 }
+
+
+//Logical Operators includes &&(AND only goes between booleans)  ||(OR) !(NOT or Negation)
+var budget =300;
+var iPhonePrice = 199.99;
+var paycheck = 200;
+
+if (iPhonePrice < budget && paycheck > 300){
+    console.log("We can buy the phone");
+}else {
+    console.log("No phone for you!");
+}
